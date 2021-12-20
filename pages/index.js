@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className=" h-screen overflow-y-scroll bg-gradient-to-b from-gray-900 to-fuchsia-900">
       <Head>
-        <title>Create Next App</title>
+        <title>METAVERSE BY VIKAS RAI</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="flex justify-between items-center py-4 px-5 ">
