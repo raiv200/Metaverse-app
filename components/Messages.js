@@ -34,7 +34,7 @@ function Messages() {
           }}
         />
       </div>
-      <div className="space-y-10 p-9 mr-5 ml-5 max-w-2xl lg:max-w-4xl lg:mx-auto bg-gradient-to-b rounded-2xl shadow-md shadow-sky-200 from-fuchsia-400 to-fuchsia-900">
+      <div className="space-y-10 p-9 mr-5 ml-5 max-w-2xl lg:max-w-4xl lg:mx-auto bg-gradient-to-b rounded-2xl shadow-md shadow-sky-200 from-rose-500 to-fuchsia-800">
         {/* Each Message  */}
        {data.map((message) => (
          <Message key ={message.id} message={message} />
