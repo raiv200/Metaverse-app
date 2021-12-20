@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="flex justify-between items-center py-4 px-5 ">
-    <h1 className="text-3xl text-emerald-400 font-bold ">Welcome to my <span className="tracking-wider uppercase">Metaverse App.</span></h1>
+    <h1 className="text-3xl text-rose-700 font-bold ">Welcome to my <span className="tracking-wider uppercase">Metaverse App.</span></h1>
     <button onClick={logout} className="bg-teal-500 text-xl z-50 hover:bg-teal-300 hover:text-gray-800 py-2 px-1 w-28  rounded-lg font-semibold text-white">Logout</button>
     </div>
     
