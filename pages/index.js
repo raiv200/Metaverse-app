@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Login from '../components/Login';
 import {useMoralis} from "react-moralis";
 import Header from '../components/Header';
+import Messages from '../components/Messages';
 
 export default function Home() {
 
@@ -14,17 +15,21 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    {/* <h1 className="text-6xl text-emerald-400 font-bold ">Welcome to my <span className="tracking-wider uppercase">Metaverse App.</span></h1> */}
+    <div className="flex justify-between items-center py-4 px-5 ">
+    <h1 className="text-3xl text-emerald-400 font-bold ">Welcome to my <span className="tracking-wider uppercase">Metaverse App.</span></h1>
+    <button onClick={logout} className="bg-teal-500 text-xl z-50 hover:bg-teal-300 hover:text-gray-800 py-2 px-1 w-28  rounded-lg font-semibold text-white">Logout</button>
+    </div>
     
 
       <div className="max-w-screen-xl mx-auto">
         {/* Header  */}
         <Header />
         {/* Message */}
+        <Messages />
       </div>
 
     
-    {/* <button onClick={logout} className="bg-teal-500 text-2xl hover:bg-teal-300 hover:text-gray-800 p-4 w-48  rounded-lg font-semibold text-white">Logout</button> */}
+    
     </div>
   )
 }
