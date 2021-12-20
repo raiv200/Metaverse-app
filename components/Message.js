@@ -16,7 +16,7 @@ function Message({ message }) {
       <div
         className={`flex space-x-4 rounded-lg p-3 ${
           isUserMessage
-            ? "rounded-br-none bg-pink-800"
+            ? "rounded-br-none bg-rose-800"
             : "rounded-bl-none bg-blue-700"
         }`}
       >
@@ -24,8 +24,8 @@ function Message({ message }) {
       </div>
       {/* time stamp  */}
 
-      <p className={`absolute -bottom-5 text-xs ${
-          isUserMessage ? "text-pink-800" : "text-blue-700"
+      <p className={`absolute -bottom-5 text-xs font-semibold ${
+          isUserMessage ? "text-rose-300" : "text-sky-300"
         }`}
       >
         {message.get("username")}
